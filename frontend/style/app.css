@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: white;
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+
+input {
+    margin: 40px;
+    height: 5vh;
+    border-style: none none solid solid;
+    border-color: white;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    border-width: 3px;
+}
+
+input::placeholder {
+    color: gray;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.question {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    height: 100vh;
+    color: white;
+    font-size: 2rem;
+}
+
+.questionAlt {
+    background-color: white;
+    color: black;
+}
+
+a, a:visited {
+    color: white;
+    text-decoration: underline;
+}
+
+#content {
+    width: auto;
+    height: auto;
+    background-color: black;
+    display: flex;
+}
+
+.article {
+    display: block;
+    padding: 5px;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-color: white;
+    width: 23vw;
+    height: 50vh;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+.article h3 {
+    font-size: 2rem;
+    font-weight: 900;
+    border-style: none none solid none;
+    border-color: black;
+    border-width: 4px;
+}
+
+.article p {
+    margin-top: 1vh;
+    font-size: 1.5rem;
+}

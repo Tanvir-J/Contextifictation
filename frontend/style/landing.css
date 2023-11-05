@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+#wordDefinition h1 {
+    text-decoration: none;
+}
+
+.messageBox {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    height: 100vh;
+    color: white;
+    font-size: 2rem;
+}
+
+#message3 input {
+    margin-left: 2vw;
+    width: 20vw;
+    caret-color: white;
+    background-color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    color: white;
+}
+
+#message3 input::placeholder {
+    font-family: 'Playfair Display', serif;
+    color: gray;
+    font-size: 1.3rem;
+}
+
+.messageBoxAlt {
+    background-color: white;
+    color: black;
+}
+
+#wordDefenition {
+    width: 50vw;
+}
+
+#word {
+    font-weight: bold;
+}
+
+a, a:visited {
+    color: white;
+    text-decoration: underline;
+}
