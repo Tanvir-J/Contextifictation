@@ -16,7 +16,7 @@ async function getArticle() {
     }).then(res => res.text()).then(json => fillContent(json));
 }
 
-async function jsonTest() {
+async function devTest() {
     const response = await fetch("./testData.json").then(res => res.text()).then(json => fillContent(json));
 }
 
