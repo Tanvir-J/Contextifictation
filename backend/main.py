@@ -11,14 +11,14 @@ from flask_cors import CORS
 import openai
 
 
-OpenAI_API_Key = "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"
+OpenAI_API_Key = ""
 openai.api_key = OpenAI_API_Key
 
 
 # Returns dictionary
 def getNewsAPIResponse(newsTopic, fromDate, toDate):
     newsTopic = requests.utils.quote(newsTopic)
-    news_API_Key = "af5b540ddb4248f3a1cc9cf28a5ca332"
+    news_API_Key = ""
     headers = {"X-Api-Key": news_API_Key}
     urlTemplate = "https://newsapi.org/v2/everything?q={newsTopic}&searchIn=description&language=en&from={fromDate}&to={toDate}&pageSize=10&sortBy=relevancy".format(newsTopic=newsTopic, fromDate=fromDate, toDate=toDate)
     response = requests.get(urlTemplate, headers=headers)
